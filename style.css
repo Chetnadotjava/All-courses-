@@ -1,0 +1,64 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .responsive-image {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* width: 40%;
+    height: 20%; */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+  /* Media Queries for Different Screen Sizes */
+  @media (max-width: 1200px) {
+    .responsive-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 20%;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+  }
+  
+  @media (max-width: 992px) {
+    .responsive-image {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 20%;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+  }
+  
+  @media (min-width: 100px) and (max-width: 768px) {
+    .responsive-image {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 85%;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+  }
+  
+ 
